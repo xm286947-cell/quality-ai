@@ -1,0 +1,1 @@
+{"type":"object","properties":{"input":{"type":["string","null"]},"query_id":{"type":["string","null"]},"from_stage":{"type":"string"},"top_k":{"type":["integer","null"]},"overwrite":{"type":"boolean"},"mock":{"type":"boolean"},"skip_ai":{"type":"boolean"}},"additionalProperties":true}

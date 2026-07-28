@@ -1,0 +1,7 @@
+{
+  "input": "input/new_cases.xlsx",
+  "from_stage": "parse",
+  "top_k": 5,
+  "overwrite": false,
+  "mock": true
+}

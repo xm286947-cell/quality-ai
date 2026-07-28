@@ -1,0 +1,36 @@
+agent:
+  id: repeat_case
+  name: REPEAT_CASE
+  version: "2.4-m6-platform-m1"
+  description: 基于历史案例检索、相似性分析和重复问题判定的业务智能体
+
+workflow:
+  version: "1.0"
+  nodes:
+    - id: repeat_case_analysis
+      type: python_handler
+      handler: repeat_case.run_analysis
+      enabled: true
+      config:
+        from_stage: parse
+        overwrite: false
+        mock: false
+        skip_ai: false
+
+input_schema:
+  type: object
+  properties:
+    input: {type: [string, "null"]}
+    query_id: {type: [string, "null"]}
+    from_stage: {type: string}
+    top_k: {type: [integer, "null"]}
+    overwrite: {type: boolean}
+    mock: {type: boolean}
+    skip_ai: {type: boolean}
+
+output_schema:
+  type: object
+
+metadata:
+  platform: BUSINESS_AGENT_ENGINE
+  migration_mode: legacy_pipeline_adapter

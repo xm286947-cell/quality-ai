@@ -1,0 +1,366 @@
+{
+  "metadata": {
+    "source_standard_query": "knowledge/standard_query/QUERY002.json",
+    "profile_builder_version": "M7.3-P1",
+    "profile_schema_version": "1.0",
+    "profile_config_version": "1.0",
+    "generated_at": "2026-07-28T08:48:45.514318+00:00"
+  },
+  "query_id": "QUERY002",
+  "product_profile": "DEFAULT",
+  "filter": [
+    {
+      "field": "organization.product",
+      "values": [
+        "产品B"
+      ],
+      "source": "NORMALIZED",
+      "confidence": 1.0,
+      "completeness": 1.0,
+      "base_weight": 1.0,
+      "effective_weight": 1.0,
+      "evidence_type": "",
+      "filter_mode": "SOFT"
+    },
+    {
+      "field": "organization.ipmt",
+      "values": [
+        "IPMT-A"
+      ],
+      "source": "NORMALIZED",
+      "confidence": 1.0,
+      "completeness": 1.0,
+      "base_weight": 0.8,
+      "effective_weight": 0.8,
+      "evidence_type": "",
+      "filter_mode": "PREFER"
+    },
+    {
+      "field": "organization.spdt",
+      "values": [
+        "SPDT-B"
+      ],
+      "source": "NORMALIZED",
+      "confidence": 1.0,
+      "completeness": 1.0,
+      "base_weight": 0.9,
+      "effective_weight": 0.9,
+      "evidence_type": "",
+      "filter_mode": "PREFER"
+    },
+    {
+      "field": "organization.responsible_department_level2",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.6,
+      "effective_weight": 0.0,
+      "evidence_type": "",
+      "filter_mode": "PREFER"
+    },
+    {
+      "field": "organization.domain",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.7,
+      "effective_weight": 0.0,
+      "evidence_type": "",
+      "filter_mode": "SOFT"
+    },
+    {
+      "field": "classification.cause_level1",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.55,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN",
+      "filter_mode": "EXPANDABLE"
+    },
+    {
+      "field": "classification.cause_level2",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.45,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN",
+      "filter_mode": "EXPANDABLE"
+    }
+  ],
+  "high_weight": [
+    {
+      "field": "problem.failure_objects",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 1.0,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "problem.phenomena",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 1.0,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "problem.trigger_conditions",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.9,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "problem.standard_problem_description",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.95,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    {
+      "field": "problem.problem_description",
+      "values": [
+        "设备偶发黑屏后自动恢复"
+      ],
+      "source": "NORMALIZED",
+      "confidence": 1.0,
+      "completeness": 1.0,
+      "base_weight": 0.85,
+      "effective_weight": 0.85,
+      "evidence_type": ""
+    }
+  ],
+  "medium_weight": [
+    {
+      "field": "analysis.failure_mechanisms",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.8,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "analysis.trc",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.7,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    {
+      "field": "analysis.root_causes",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.65,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "analysis.cause_description",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.6,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "problem.impacts",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.5,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    }
+  ],
+  "low_weight": [
+    {
+      "field": "knowledge.keywords",
+      "values": [],
+      "source": "DIRECT",
+      "confidence": 1.0,
+      "completeness": 0.0,
+      "base_weight": 0.35,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "knowledge.tags",
+      "values": [],
+      "source": "DIRECT",
+      "confidence": 1.0,
+      "completeness": 0.0,
+      "base_weight": 0.25,
+      "effective_weight": 0.0,
+      "evidence_type": ""
+    },
+    {
+      "field": "solution.solution_object",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.2,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    {
+      "field": "solution.solution_mechanism",
+      "values": [],
+      "source": "EMPTY",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "base_weight": 0.2,
+      "effective_weight": 0.0,
+      "evidence_type": "UNKNOWN"
+    }
+  ],
+  "channels": {
+    "keyword": [
+      "problem.problem_description"
+    ],
+    "bm25": [
+      "problem.problem_description"
+    ],
+    "embedding": [
+      "problem.problem_description"
+    ],
+    "llm_rerank": [
+      "problem.problem_description"
+    ]
+  },
+  "profile_quality": {
+    "available_fields": 4,
+    "configured_fields": 21,
+    "coverage": 0.190476,
+    "weighted_coverage": 0.25448
+  },
+  "warnings": [
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "organization.responsible_department_level2",
+      "group": "filter"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "organization.domain",
+      "group": "filter"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "classification.cause_level1",
+      "group": "filter"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "classification.cause_level2",
+      "group": "filter"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "problem.failure_objects",
+      "group": "high_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "problem.phenomena",
+      "group": "high_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "problem.trigger_conditions",
+      "group": "high_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "problem.standard_problem_description",
+      "group": "high_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "analysis.failure_mechanisms",
+      "group": "medium_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "analysis.trc",
+      "group": "medium_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "analysis.root_causes",
+      "group": "medium_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "analysis.cause_description",
+      "group": "medium_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "problem.impacts",
+      "group": "medium_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "knowledge.keywords",
+      "group": "low_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "knowledge.tags",
+      "group": "low_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "solution.solution_object",
+      "group": "low_weight"
+    },
+    {
+      "code": "PROFILE_FIELD_EMPTY",
+      "field": "solution.solution_mechanism",
+      "group": "low_weight"
+    }
+  ],
+  "lineage": {
+    "raw_query_version": "",
+    "field_mapping_config_version": "",
+    "normalizer_version": "M7.2-N1",
+    "normalization_config_version": "1.0",
+    "ai_enricher_version": "M7.2-A1",
+    "prompt_version": "1.0",
+    "model_provider": "openai_compatible",
+    "model_name": "",
+    "standard_builder_version": "M7.2-B1",
+    "standard_query_schema_version": "1.0",
+    "retrieval_profile_builder_version": "M7.3-P1",
+    "retrieval_profile_config_version": "1.0"
+  },
+  "build_status": "PARTIAL_SUCCESS"
+}

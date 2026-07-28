@@ -1,0 +1,40 @@
+{
+  "request_id": "TEST-RUNTIME-001",
+  "agent_id": "repeat_case",
+  "status": "SUCCESS",
+  "started_at": "2026-07-28T10:07:09.314134+00:00",
+  "completed_at": "2026-07-28T10:07:09.315570+00:00",
+  "elapsed_seconds": 0.001,
+  "nodes": [
+    {
+      "id": "parse_input",
+      "handler": "input.parse",
+      "status": "SUCCESS",
+      "started_at": "2026-07-28T10:07:09.314172+00:00",
+      "completed_at": "2026-07-28T10:07:09.314445+00:00",
+      "summary": {
+        "success": true
+      }
+    },
+    {
+      "id": "knowledge_search",
+      "handler": "knowledge.search",
+      "status": "SUCCESS",
+      "started_at": "2026-07-28T10:07:09.314769+00:00",
+      "completed_at": "2026-07-28T10:07:09.314941+00:00",
+      "summary": {
+        "success": true
+      }
+    },
+    {
+      "id": "repeat_case_analysis",
+      "handler": "repeat_case.run_analysis",
+      "status": "SUCCESS",
+      "started_at": "2026-07-28T10:07:09.315094+00:00",
+      "completed_at": "2026-07-28T10:07:09.315339+00:00",
+      "summary": {
+        "success": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+knowledge:
+  # mock | capability
+  provider: capability
+  base_url: http://127.0.0.1:8080
+  endpoint: /v1/knowledge/query
+  timeout_seconds: 30
+  service_id: repeat_case_service
+  top_k: 10
+  headers: {}

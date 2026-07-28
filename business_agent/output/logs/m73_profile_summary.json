@@ -1,0 +1,12 @@
+{
+  "stage": "M7.3.1-M7.3.2",
+  "total": 1,
+  "success": 0,
+  "partial_success": 1,
+  "failed": 0,
+  "existing_skipped": 0,
+  "schema_invalid": 0,
+  "errors": [],
+  "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile",
+  "elapsed_seconds": 0.003
+}

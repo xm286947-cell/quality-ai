@@ -1,0 +1,16 @@
+{
+  "stage": "M3",
+  "total_raw_evidence": 1,
+  "processed_count": 1,
+  "skipped_count": 0,
+  "failed_count": 0,
+  "results": [
+    {
+      "case_id": "CASE-M3TEST",
+      "status": "PARSED",
+      "section_count": 4,
+      "warning_count": 0
+    }
+  ],
+  "failures": []
+}

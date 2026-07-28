@@ -1,0 +1,14 @@
+agent:
+  id: repeat_case
+  name: REPEAT_CASE
+  version: "2.4-m6-platform-m3-contract-integration"
+  description: 基于历史案例检索、相似性分析和重复问题判定的业务智能体
+plugin:
+  module: plugin.py
+workflow_file: workflow.yaml
+input_schema_file: input.schema.json
+output_schema_file: output.schema.json
+prompt_file: prompt.md
+metadata:
+  platform: BUSINESS_AGENT_ENGINE
+  migration_mode: standard_plugin_adapter

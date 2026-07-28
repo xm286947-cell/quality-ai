@@ -1,0 +1,11 @@
+source_registry_version: "1.0"
+sources:
+  - source_id: repeat_case_json
+    service_id: repeat_case_service
+    provider:
+      type: json_repository
+    location: knowledge/
+    schema: repeat_case
+    status: active
+    version: "1.0"
+    options: {}

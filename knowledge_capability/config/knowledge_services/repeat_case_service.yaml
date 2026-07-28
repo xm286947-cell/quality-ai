@@ -1,0 +1,28 @@
+service_id: repeat_case_service
+version: "1.0"
+status: active
+service_type: repeat_case
+schema:
+  type: repeat_case
+  version: "1.0"
+provider:
+  type: json_repository
+  source_id: repeat_case_json
+  config_ref: app.paths
+adapter:
+  type: existing_case_retriever
+parser:
+  enabled: false
+retrieval:
+  strategy: existing_case_retriever
+  config_ref: retrieval.yaml
+result_mapping:
+  type: passthrough_v1
+evidence:
+  rule: retrieval_candidate_reference
+version_rule:
+  policy: profile_pinned
+permission:
+  mode: internal
+runtime:
+  timeout_seconds: 120

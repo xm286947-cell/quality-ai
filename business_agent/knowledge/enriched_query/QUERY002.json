@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "query_id": "QUERY002",
+    "source_normalized_query": "knowledge/normalized_query/QUERY002.json",
+    "normalizer_version": "M7.2-N1",
+    "normalization_config_version": "1.0",
+    "ai_enricher_version": "M7.2-A1",
+    "prompt_version": "1.0",
+    "model_provider": "openai_compatible",
+    "model_name": "",
+    "generated_at": "2026-07-28T08:48:45.500815+00:00"
+  },
+  "original": {
+    "itr_id": "",
+    "ipmt": "IPMT-A",
+    "spdt": "SPDT-B",
+    "responsible_department_level2": "",
+    "product": "产品B",
+    "domain": "",
+    "problem_description": "设备偶发黑屏后自动恢复",
+    "cause_description": "",
+    "cause_level1": "",
+    "cause_level2": "",
+    "cause_level3": "",
+    "cause_level4": "",
+    "corrective_action": "",
+    "preventive_action": "",
+    "remark": "最低信息示例",
+    "query_id": "QUERY002"
+  },
+  "normalized": {
+    "itr_id": "",
+    "ipmt": "IPMT-A",
+    "spdt": "SPDT-B",
+    "responsible_department_level2": "",
+    "product": "产品B",
+    "domain": "",
+    "problem_description": "设备偶发黑屏后自动恢复",
+    "cause_description": "",
+    "cause_level1": "",
+    "cause_level2": "",
+    "cause_level3": "",
+    "cause_level4": "",
+    "corrective_action": "",
+    "preventive_action": "",
+    "remark": "最低信息示例",
+    "query_id": "QUERY002"
+  },
+  "extensions": {},
+  "inferred": {
+    "problem_summary": {
+      "value": "",
+      "evidence_type": "UNKNOWN",
+      "confidence": 0.0,
+      "reason": ""
+    },
+    "standard_problem_description": {
+      "value": "",
+      "evidence_type": "UNKNOWN",
+      "confidence": 0.0,
+      "reason": ""
+    },
+    "failure_objects": [],
+    "phenomena": [],
+    "trigger_conditions": [],
+    "impacts": [],
+    "operating_context": [],
+    "trc": {
+      "value": "",
+      "evidence_type": "UNKNOWN",
+      "confidence": 0.0,
+      "reason": ""
+    },
+    "mrc": {
+      "value": "",
+      "evidence_type": "UNKNOWN",
+      "confidence": 0.0,
+      "reason": ""
+    },
+    "root_causes": [],
+    "failure_mechanisms": [],
+    "contributing_factors": [],
+    "classification": {
+      "cause_level1": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "cause_level2": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "cause_level3": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "cause_level4": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      }
+    },
+    "keywords": [],
+    "tags": [],
+    "solution": {
+      "current_solution": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "solution_object": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "solution_mechanism": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      },
+      "expected_effect": {
+        "value": "",
+        "evidence_type": "UNKNOWN",
+        "confidence": 0.0,
+        "reason": ""
+      }
+    },
+    "information_gaps": [],
+    "overall_confidence": {
+      "value": 0.0,
+      "evidence_type": "UNKNOWN",
+      "confidence": 0.0,
+      "reason": ""
+    }
+  },
+  "ai_warnings": [
+    {
+      "code": "AI_ENRICHMENT_SKIPPED",
+      "message": "AI未启用或显式跳过"
+    }
+  ],
+  "enrich_status": "SKIPPED"
+}

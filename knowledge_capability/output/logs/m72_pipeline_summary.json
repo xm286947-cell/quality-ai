@@ -1,0 +1,58 @@
+{
+  "pipeline_version": "M7.2-P1",
+  "from_stage": "normalize",
+  "query_id": "QUERY001",
+  "started_at": "2026-07-23T16:13:58.548935+00:00",
+  "completed_at": "2026-07-23T16:13:58.570532+00:00",
+  "elapsed_seconds": 0.022,
+  "query_count": 1,
+  "stages": {
+    "normalize": {
+      "total": 1,
+      "success": 1,
+      "partial_success": 0,
+      "failed": 0,
+      "skipped": 0,
+      "errors": [],
+      "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/normalized_query"
+    },
+    "ai": {
+      "total": 1,
+      "success": 1,
+      "partial_success": 0,
+      "failed": 0,
+      "skipped": 0,
+      "existing_skipped": 0,
+      "schema_invalid": 0,
+      "elapsed_seconds": 0.006,
+      "errors": [],
+      "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/enriched_query"
+    },
+    "build": {
+      "total": 1,
+      "success": 0,
+      "partial_success": 1,
+      "failed": 0,
+      "existing_skipped": 0,
+      "schema_invalid": 0,
+      "elapsed_seconds": 0.004,
+      "errors": [],
+      "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/standard_query"
+    }
+  },
+  "queries": [
+    {
+      "query_id": "QUERY001",
+      "normalized_status": "SUCCESS",
+      "enriched_status": "SUCCESS",
+      "standard_status": "PARTIAL_SUCCESS",
+      "standard_query_generated": true,
+      "quality_flags": [
+        "INFORMATION_GAPS_PRESENT"
+      ]
+    }
+  ],
+  "success": 0,
+  "partial_success": 1,
+  "failed": 0
+}

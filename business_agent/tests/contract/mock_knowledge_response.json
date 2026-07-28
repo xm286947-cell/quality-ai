@@ -1,0 +1,31 @@
+{
+  "request_id": "TEST-KNOWLEDGE-001",
+  "service_id": "repeat_case_service",
+  "success": true,
+  "result": {
+    "results": [
+      {
+        "case_id": "CASE-001",
+        "score": 0.91,
+        "title": "CAN接收处理拥堵导致重启",
+        "summary": "历史案例摘要"
+      }
+    ],
+    "total": 1,
+    "provider": "mock"
+  },
+  "evidence": [
+    {
+      "evidence_id": "EV-001",
+      "source_type": "case",
+      "source_ref": "CASE-001",
+      "summary": "接收队列拥堵触发保护重启",
+      "metadata": {}
+    }
+  ],
+  "trace": [],
+  "warnings": [],
+  "error": null,
+  "contract_version": "V1.0",
+  "created_at": "2026-07-28T00:00:00+00:00"
+}

@@ -1,0 +1,134 @@
+{
+  "pipeline_version": "V2.3-M4",
+  "pipeline": "M7.1->M7.2->M7.3->M8.1->M8.2->M8.3->M8.4",
+  "from_stage": "enrich",
+  "query_id": "QUERY001",
+  "started_at": "2026-07-23T16:13:58.548887+00:00",
+  "completed_at": "2026-07-23T16:13:58.581424+00:00",
+  "elapsed_seconds": 0.033,
+  "status": "FAILED",
+  "query_count": 1,
+  "success": 0,
+  "failed": 1,
+  "parse": null,
+  "queries": [
+    {
+      "query_id": "QUERY001",
+      "status": "FAILED",
+      "failed_stage": "retrieve",
+      "error": "STAGE_RESULT_FAILED",
+      "stages": [
+        {
+          "stage": "enrich",
+          "status": "SUCCESS",
+          "started_at": "2026-07-23T16:13:58.548927+00:00",
+          "completed_at": "2026-07-23T16:13:58.570717+00:00",
+          "elapsed_seconds": 0.022,
+          "result": {
+            "pipeline_version": "M7.2-P1",
+            "from_stage": "normalize",
+            "query_id": "QUERY001",
+            "started_at": "2026-07-23T16:13:58.548935+00:00",
+            "completed_at": "2026-07-23T16:13:58.570532+00:00",
+            "elapsed_seconds": 0.022,
+            "query_count": 1,
+            "stages": {
+              "normalize": {
+                "total": 1,
+                "success": 1,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 0,
+                "errors": [],
+                "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/normalized_query"
+              },
+              "ai": {
+                "total": 1,
+                "success": 1,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 0,
+                "existing_skipped": 0,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.006,
+                "errors": [],
+                "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/enriched_query"
+              },
+              "build": {
+                "total": 1,
+                "success": 0,
+                "partial_success": 1,
+                "failed": 0,
+                "existing_skipped": 0,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.004,
+                "errors": [],
+                "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/standard_query"
+              }
+            },
+            "queries": [
+              {
+                "query_id": "QUERY001",
+                "normalized_status": "SUCCESS",
+                "enriched_status": "SUCCESS",
+                "standard_status": "PARTIAL_SUCCESS",
+                "standard_query_generated": true,
+                "quality_flags": [
+                  "INFORMATION_GAPS_PRESENT"
+                ]
+              }
+            ],
+            "success": 0,
+            "partial_success": 1,
+            "failed": 0
+          },
+          "error": ""
+        },
+        {
+          "stage": "profile",
+          "status": "SUCCESS",
+          "started_at": "2026-07-23T16:13:58.570731+00:00",
+          "completed_at": "2026-07-23T16:13:58.577004+00:00",
+          "elapsed_seconds": 0.006,
+          "result": {
+            "stage": "M7.3.1-M7.3.2",
+            "total": 1,
+            "success": 1,
+            "partial_success": 0,
+            "failed": 0,
+            "existing_skipped": 0,
+            "schema_invalid": 0,
+            "errors": [],
+            "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/retrieval_profile",
+            "elapsed_seconds": 0.003
+          },
+          "error": ""
+        },
+        {
+          "stage": "retrieve",
+          "status": "FAILED",
+          "started_at": "2026-07-23T16:13:58.577017+00:00",
+          "completed_at": "2026-07-23T16:13:58.581407+00:00",
+          "elapsed_seconds": 0.004,
+          "result": {
+            "stage": "M7.3.3",
+            "total": 1,
+            "success": 0,
+            "failed": 1,
+            "existing_skipped": 0,
+            "returned_candidates": 0,
+            "errors": [
+              {
+                "file": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/retrieval_profile/QUERY001.json",
+                "error": "M6索引不存在: /mnt/data/repeat_case_m3/repeat_case_m1/knowledge/index/case_index.jsonl"
+              }
+            ],
+            "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/output/candidate_cases",
+            "elapsed_seconds": 0.0
+          },
+          "error": ""
+        }
+      ]
+    }
+  ]
+}

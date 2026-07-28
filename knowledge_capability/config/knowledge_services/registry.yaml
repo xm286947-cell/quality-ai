@@ -1,0 +1,8 @@
+registry_version: "1.0"
+services:
+  - service_id: repeat_case_service
+    version: "1.0"
+    status: active
+    profile_name: repeat_case_service
+    factory: repeat_case_existing
+    options: {}

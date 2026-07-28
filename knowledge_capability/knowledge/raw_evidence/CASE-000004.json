@@ -1,0 +1,19 @@
+{
+  "case_id": "CASE-000004",
+  "report_filename": "dup.pdf",
+  "matched_report_path": "",
+  "candidate_paths": [
+    "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports/dup.pdf",
+    "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports/nested/dup.pdf"
+  ],
+  "match_type": "AMBIGUOUS",
+  "file_hash": "",
+  "file_size": 0,
+  "parse_status": "AMBIGUOUS",
+  "sections": [],
+  "unclassified_blocks": [],
+  "parse_warnings": [
+    "MULTIPLE_REPORT_MATCHES"
+  ],
+  "generated_at": "2026-07-28T10:37:54.490930+00:00"
+}

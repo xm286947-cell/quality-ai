@@ -1,0 +1,26 @@
+version: "1.1"
+nodes:
+  - id: parse_input
+    type: python_handler
+    handler: input.parse
+    enabled: true
+    config: {}
+  - id: knowledge_search
+    type: python_handler
+    handler: knowledge.search
+    enabled: true
+    config:
+      enabled: true
+      provider: http
+      service_id: repeat_case_service
+      top_k: 10
+      timeout_seconds: 30
+  - id: repeat_case_analysis
+    type: python_handler
+    handler: repeat_case.run_analysis
+    enabled: true
+    config:
+      from_stage: parse
+      overwrite: false
+      mock: false
+      skip_ai: false

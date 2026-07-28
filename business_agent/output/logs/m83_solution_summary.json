@@ -1,0 +1,12 @@
+{
+  "total": 0,
+  "success": 0,
+  "skipped": 0,
+  "failed": 0,
+  "schema_invalid": 0,
+  "existing_skipped": 0,
+  "similarity_missing": 0,
+  "errors": [],
+  "output_dir": "/mnt/data/REPEAT_CASE_ENGINE_V2.0_M8.3/knowledge/solution_analysis",
+  "elapsed_seconds": 0.0
+}

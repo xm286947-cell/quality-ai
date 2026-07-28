@@ -1,0 +1,7 @@
+{
+  "stage": "M7",
+  "returned_count": 2,
+  "total_candidates": 2,
+  "embedding_model": "local-hash-v1",
+  "output_dir": "/mnt/data/ba_work/repeat_case_m1/output/retrieval_results"
+}

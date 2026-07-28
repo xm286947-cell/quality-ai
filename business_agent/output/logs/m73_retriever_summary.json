@@ -1,0 +1,16 @@
+{
+  "stage": "M7.3.3",
+  "total": 1,
+  "success": 0,
+  "failed": 1,
+  "existing_skipped": 0,
+  "returned_candidates": 0,
+  "errors": [
+    {
+      "file": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile/QUERY002.json",
+      "error": "M6索引不存在: /mnt/data/bae_work/repeat_case_m1/knowledge/index/case_index.jsonl"
+    }
+  ],
+  "output_dir": "/mnt/data/bae_work/repeat_case_m1/output/candidate_cases",
+  "elapsed_seconds": 0.0
+}

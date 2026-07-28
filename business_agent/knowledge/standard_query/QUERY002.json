@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "query_id": "QUERY002",
+    "source_enriched_query": "knowledge/enriched_query/QUERY002.json",
+    "standard_builder_version": "M7.2-B1",
+    "standard_query_schema_version": "1.0",
+    "generated_at": "2026-07-28T08:48:45.503020+00:00"
+  },
+  "organization": {
+    "ipmt": {
+      "original": "IPMT-A",
+      "normalized": "IPMT-A",
+      "inferred": "",
+      "effective": "IPMT-A",
+      "effective_source": "NORMALIZED"
+    },
+    "spdt": {
+      "original": "SPDT-B",
+      "normalized": "SPDT-B",
+      "inferred": "",
+      "effective": "SPDT-B",
+      "effective_source": "NORMALIZED"
+    },
+    "responsible_department_level2": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    },
+    "product": {
+      "original": "产品B",
+      "normalized": "产品B",
+      "inferred": "",
+      "effective": "产品B",
+      "effective_source": "NORMALIZED"
+    },
+    "domain": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    }
+  },
+  "problem": {
+    "query_id": {
+      "original": "QUERY002",
+      "normalized": "QUERY002",
+      "inferred": "",
+      "effective": "QUERY002",
+      "effective_source": "NORMALIZED"
+    },
+    "itr_id": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    },
+    "problem_description": {
+      "original": "设备偶发黑屏后自动恢复",
+      "normalized": "设备偶发黑屏后自动恢复",
+      "inferred": "",
+      "effective": "设备偶发黑屏后自动恢复",
+      "effective_source": "NORMALIZED"
+    },
+    "problem_summary": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "standard_problem_description": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "failure_objects": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "phenomena": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "trigger_conditions": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "impacts": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "operating_context": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    }
+  },
+  "analysis": {
+    "cause_description": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    },
+    "trc": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "mrc": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "root_causes": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "failure_mechanisms": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    },
+    "contributing_factors": {
+      "original": [],
+      "normalized": [],
+      "inferred": [],
+      "effective": [],
+      "effective_source": "EMPTY"
+    }
+  },
+  "classification": {
+    "cause_level1": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "cause_level2": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "cause_level3": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "cause_level4": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    }
+  },
+  "solution": {
+    "corrective_action": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    },
+    "preventive_action": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY"
+    },
+    "current_solution": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "solution_object": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "solution_mechanism": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    },
+    "expected_effect": {
+      "original": "",
+      "normalized": "",
+      "inferred": "",
+      "effective": "",
+      "effective_source": "EMPTY",
+      "confidence": 0.0,
+      "evidence_type": "UNKNOWN"
+    }
+  },
+  "knowledge": {
+    "keywords": [],
+    "tags": [],
+    "information_gaps": [],
+    "overall_confidence": 0.0
+  },
+  "extensions": {},
+  "completeness": {
+    "input_completeness": 0.4167,
+    "analysis_completeness": 0.0,
+    "input_fields_present": 5,
+    "input_fields_total": 12,
+    "analysis_fields_present": 0,
+    "analysis_fields_total": 10
+  },
+  "quality_flags": [
+    "AI_ENRICHMENT_UNAVAILABLE"
+  ],
+  "lineage": {
+    "raw_query_version": "",
+    "field_mapping_config_version": "",
+    "normalizer_version": "M7.2-N1",
+    "normalization_config_version": "1.0",
+    "ai_enricher_version": "M7.2-A1",
+    "prompt_version": "1.0",
+    "model_provider": "openai_compatible",
+    "model_name": "",
+    "standard_builder_version": "M7.2-B1",
+    "standard_query_schema_version": "1.0"
+  },
+  "build_status": "PARTIAL_SUCCESS"
+}

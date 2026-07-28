@@ -1,0 +1,14 @@
+{
+  "queries": 0,
+  "success": 0,
+  "partial_success": 0,
+  "skipped": 0,
+  "failed": 0,
+  "candidates": 0,
+  "similarity_missing": 0,
+  "solution_missing": 0,
+  "existing_skipped": 0,
+  "errors": [],
+  "output_dir": "/mnt/data/m84work/REPEAT_CASE_ENGINE_V2.0_M8.3/knowledge/repeat_analysis",
+  "elapsed_seconds": 0.0
+}

@@ -1,0 +1,12 @@
+{
+  "total": 1,
+  "success": 1,
+  "partial_success": 0,
+  "failed": 0,
+  "skipped": 0,
+  "existing_skipped": 0,
+  "schema_invalid": 0,
+  "elapsed_seconds": 0.006,
+  "errors": [],
+  "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/enriched_query"
+}

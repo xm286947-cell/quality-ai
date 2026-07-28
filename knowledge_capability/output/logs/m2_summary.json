@@ -1,0 +1,76 @@
+{
+  "stage": "M2",
+  "excel": {
+    "source_excel": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/cases_m2.xlsx",
+    "sheet_name": "Sheet1",
+    "header_row": 1,
+    "headers": [
+      "ITR单号",
+      "考核年份",
+      "考核月份",
+      "IPMT",
+      "SPDT",
+      "责任部门(二级)",
+      "问题描述",
+      "TRC发生",
+      "TRC流出",
+      "MRC发生",
+      "MRC流出",
+      "复盘报告",
+      "原因一级分类",
+      "原因二级分类"
+    ],
+    "sheet_diagnostics": [
+      {
+        "sheet_name": "Sheet1",
+        "max_row": 6,
+        "max_column": 64,
+        "best_header_row": 1,
+        "preferred_field_matches": 5,
+        "mapped_field_matches": 14,
+        "headers": [
+          "ITR单号",
+          "考核年份",
+          "考核月份",
+          "IPMT",
+          "SPDT",
+          "责任部门(二级)",
+          "问题描述",
+          "TRC发生",
+          "TRC流出",
+          "MRC发生",
+          "MRC流出",
+          "复盘报告",
+          "原因一级分类",
+          "原因二级分类"
+        ]
+      }
+    ],
+    "missing_columns": [
+      "原因三级分类",
+      "原因四级分类"
+    ],
+    "total_rows": 5,
+    "success_count": 0,
+    "partial_success_count": 5,
+    "failed_count": 0,
+    "duplicate_itr_ids": [
+      "ITR-004"
+    ]
+  },
+  "report_matching": {
+    "reports_dir": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports",
+    "total_cases": 5,
+    "match_type_counts": {
+      "EXACT_FILENAME": 2,
+      "NO_REPORT_NAME": 1,
+      "NOT_FOUND": 1,
+      "AMBIGUOUS": 1
+    },
+    "matched_count": 2,
+    "unmatched_count": 2,
+    "ambiguous_count": 1
+  },
+  "raw_excel_dir": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/knowledge/raw_excel",
+  "raw_evidence_dir": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/knowledge/raw_evidence"
+}

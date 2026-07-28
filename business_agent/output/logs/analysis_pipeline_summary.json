@@ -1,0 +1,323 @@
+{
+  "pipeline_version": "V2.3-M5",
+  "pipeline": "M7.1->M7.2->M7.3->M8.1->M8.2->M8.3->M8.4->M8.5",
+  "from_stage": "parse",
+  "query_id": "",
+  "started_at": "2026-07-28T08:48:45.462489+00:00",
+  "completed_at": "2026-07-28T08:48:45.523094+00:00",
+  "elapsed_seconds": 0.061,
+  "status": "FAILED",
+  "query_count": 2,
+  "success": 0,
+  "failed": 2,
+  "parse": {
+    "stage": "parse",
+    "status": "SUCCESS",
+    "started_at": "2026-07-28T08:48:45.462502+00:00",
+    "completed_at": "2026-07-28T08:48:45.475290+00:00",
+    "elapsed_seconds": 0.013,
+    "result": {
+      "source_excel": "input/new_cases.xlsx",
+      "sheet_name": "待分析问题",
+      "header_row": 1,
+      "header_rows": 1,
+      "headers": [
+        "查询编号",
+        "ITR单号",
+        "IPMT",
+        "SPDT",
+        "责任部门（二级）",
+        "产品",
+        "领域",
+        "问题描述",
+        "原因描述",
+        "原因一级分类",
+        "原因二级分类",
+        "原因三级分类",
+        "原因四级分类",
+        "纠正措施",
+        "预防措施",
+        "备注"
+      ],
+      "sheet_diagnostics": [
+        {
+          "sheet_name": "待分析问题",
+          "max_row": 3,
+          "max_column": 64,
+          "best_header_row": 1,
+          "header_rows": 1,
+          "preferred_field_matches": 5,
+          "mapped_field_matches": 16,
+          "headers": [
+            "查询编号",
+            "ITR单号",
+            "IPMT",
+            "SPDT",
+            "责任部门（二级）",
+            "产品",
+            "领域",
+            "问题描述",
+            "原因描述",
+            "原因一级分类",
+            "原因二级分类",
+            "原因三级分类",
+            "原因四级分类",
+            "纠正措施",
+            "预防措施",
+            "备注"
+          ]
+        }
+      ],
+      "missing_columns": [],
+      "total": 2,
+      "success": 2,
+      "partial_success": 0,
+      "failed": 0,
+      "duplicate_query_ids": [],
+      "failed_rows": [],
+      "generated_at": "2026-07-28T08:48:45.473973+00:00",
+      "validation_failures": [],
+      "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/raw_query",
+      "schema": "/mnt/data/bae_work/repeat_case_m1/schema/raw_query.schema.json"
+    },
+    "error": ""
+  },
+  "queries": [
+    {
+      "query_id": "QUERY001",
+      "status": "FAILED",
+      "failed_stage": "retrieve",
+      "error": "M6索引不存在: /mnt/data/bae_work/repeat_case_m1/knowledge/index/case_index.jsonl",
+      "stages": [
+        {
+          "stage": "enrich",
+          "status": "SUCCESS",
+          "started_at": "2026-07-28T08:48:45.475505+00:00",
+          "completed_at": "2026-07-28T08:48:45.482823+00:00",
+          "elapsed_seconds": 0.007,
+          "result": {
+            "pipeline_version": "M7.2-P1",
+            "from_stage": "normalize",
+            "query_id": "QUERY001",
+            "started_at": "2026-07-28T08:48:45.475518+00:00",
+            "completed_at": "2026-07-28T08:48:45.482617+00:00",
+            "elapsed_seconds": 0.007,
+            "query_count": 1,
+            "stages": {
+              "normalize": {
+                "total": 0,
+                "success": 0,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 1,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/normalized_query"
+              },
+              "ai": {
+                "total": 0,
+                "success": 0,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 0,
+                "existing_skipped": 1,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.0,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/enriched_query"
+              },
+              "build": {
+                "total": 0,
+                "success": 0,
+                "partial_success": 0,
+                "failed": 0,
+                "existing_skipped": 1,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.0,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/standard_query"
+              }
+            },
+            "queries": [
+              {
+                "query_id": "QUERY001",
+                "normalized_status": "SUCCESS",
+                "enriched_status": "SUCCESS",
+                "standard_status": "PARTIAL_SUCCESS",
+                "standard_query_generated": true,
+                "quality_flags": [
+                  "INFORMATION_GAPS_PRESENT"
+                ]
+              }
+            ],
+            "success": 0,
+            "partial_success": 1,
+            "failed": 0
+          },
+          "error": ""
+        },
+        {
+          "stage": "profile",
+          "status": "SUCCESS",
+          "started_at": "2026-07-28T08:48:45.482838+00:00",
+          "completed_at": "2026-07-28T08:48:45.488078+00:00",
+          "elapsed_seconds": 0.005,
+          "result": {
+            "stage": "M7.3.1-M7.3.2",
+            "total": 0,
+            "success": 0,
+            "partial_success": 0,
+            "failed": 0,
+            "existing_skipped": 1,
+            "schema_invalid": 0,
+            "errors": [],
+            "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile",
+            "elapsed_seconds": 0.0
+          },
+          "error": ""
+        },
+        {
+          "stage": "retrieve",
+          "status": "FAILED",
+          "started_at": "2026-07-28T08:48:45.488095+00:00",
+          "completed_at": "2026-07-28T08:48:45.493533+00:00",
+          "elapsed_seconds": 0.005,
+          "result": {
+            "stage": "M7.3.3",
+            "total": 1,
+            "success": 0,
+            "failed": 1,
+            "existing_skipped": 0,
+            "returned_candidates": 0,
+            "errors": [
+              {
+                "file": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile/QUERY001.json",
+                "error": "M6索引不存在: /mnt/data/bae_work/repeat_case_m1/knowledge/index/case_index.jsonl"
+              }
+            ],
+            "output_dir": "/mnt/data/bae_work/repeat_case_m1/output/candidate_cases",
+            "elapsed_seconds": 0.0
+          },
+          "error": ""
+        }
+      ]
+    },
+    {
+      "query_id": "QUERY002",
+      "status": "FAILED",
+      "failed_stage": "retrieve",
+      "error": "M6索引不存在: /mnt/data/bae_work/repeat_case_m1/knowledge/index/case_index.jsonl",
+      "stages": [
+        {
+          "stage": "enrich",
+          "status": "SUCCESS",
+          "started_at": "2026-07-28T08:48:45.493556+00:00",
+          "completed_at": "2026-07-28T08:48:45.508522+00:00",
+          "elapsed_seconds": 0.015,
+          "result": {
+            "pipeline_version": "M7.2-P1",
+            "from_stage": "normalize",
+            "query_id": "QUERY002",
+            "started_at": "2026-07-28T08:48:45.493566+00:00",
+            "completed_at": "2026-07-28T08:48:45.508327+00:00",
+            "elapsed_seconds": 0.015,
+            "query_count": 1,
+            "stages": {
+              "normalize": {
+                "total": 1,
+                "success": 1,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 0,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/normalized_query"
+              },
+              "ai": {
+                "total": 1,
+                "success": 0,
+                "partial_success": 0,
+                "failed": 0,
+                "skipped": 1,
+                "existing_skipped": 0,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.002,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/enriched_query"
+              },
+              "build": {
+                "total": 1,
+                "success": 0,
+                "partial_success": 1,
+                "failed": 0,
+                "existing_skipped": 0,
+                "schema_invalid": 0,
+                "elapsed_seconds": 0.005,
+                "errors": [],
+                "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/standard_query"
+              }
+            },
+            "queries": [
+              {
+                "query_id": "QUERY002",
+                "normalized_status": "SUCCESS",
+                "enriched_status": "SKIPPED",
+                "standard_status": "PARTIAL_SUCCESS",
+                "standard_query_generated": true,
+                "quality_flags": [
+                  "AI_ENRICHMENT_UNAVAILABLE"
+                ]
+              }
+            ],
+            "success": 0,
+            "partial_success": 1,
+            "failed": 0
+          },
+          "error": ""
+        },
+        {
+          "stage": "profile",
+          "status": "SUCCESS",
+          "started_at": "2026-07-28T08:48:45.508537+00:00",
+          "completed_at": "2026-07-28T08:48:45.517503+00:00",
+          "elapsed_seconds": 0.009,
+          "result": {
+            "stage": "M7.3.1-M7.3.2",
+            "total": 1,
+            "success": 0,
+            "partial_success": 1,
+            "failed": 0,
+            "existing_skipped": 0,
+            "schema_invalid": 0,
+            "errors": [],
+            "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile",
+            "elapsed_seconds": 0.003
+          },
+          "error": ""
+        },
+        {
+          "stage": "retrieve",
+          "status": "FAILED",
+          "started_at": "2026-07-28T08:48:45.517520+00:00",
+          "completed_at": "2026-07-28T08:48:45.523072+00:00",
+          "elapsed_seconds": 0.006,
+          "result": {
+            "stage": "M7.3.3",
+            "total": 1,
+            "success": 0,
+            "failed": 1,
+            "existing_skipped": 0,
+            "returned_candidates": 0,
+            "errors": [
+              {
+                "file": "/mnt/data/bae_work/repeat_case_m1/knowledge/retrieval_profile/QUERY002.json",
+                "error": "M6索引不存在: /mnt/data/bae_work/repeat_case_m1/knowledge/index/case_index.jsonl"
+              }
+            ],
+            "output_dir": "/mnt/data/bae_work/repeat_case_m1/output/candidate_cases",
+            "elapsed_seconds": 0.0
+          },
+          "error": ""
+        }
+      ]
+    }
+  ]
+}

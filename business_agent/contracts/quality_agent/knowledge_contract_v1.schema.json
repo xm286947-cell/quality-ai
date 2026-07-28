@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "quality-agent://contract/business-agent-knowledge/v1",
+  "title": "Business Agent ↔ Knowledge Capability Contract V1.0 Request",
+  "type": "object",
+  "required": ["request_id", "service_id", "query", "filters", "requested_fields", "options", "caller", "contract_version"],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 1},
+    "service_id": {"type": "string", "minLength": 1},
+    "query": {"type": "object"},
+    "filters": {"type": "object"},
+    "requested_fields": {"type": "array", "items": {"type": "string"}},
+    "options": {"type": "object"},
+    "caller": {"type": "object"},
+    "contract_version": {"enum": ["V1.0", "1.0"]}
+  },
+  "additionalProperties": false
+}

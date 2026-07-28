@@ -1,0 +1,7 @@
+{
+  "stage": "M7",
+  "returned_count": 2,
+  "total_candidates": 2,
+  "embedding_model": "local-hash-v1",
+  "output_dir": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/output/retrieval_results"
+}

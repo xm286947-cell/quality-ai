@@ -1,0 +1,16 @@
+{
+  "case_id": "CASE-000001",
+  "report_filename": "report-a.pdf",
+  "matched_report_path": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports/report-a.pdf",
+  "candidate_paths": [
+    "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports/report-a.pdf"
+  ],
+  "match_type": "EXACT_FILENAME",
+  "file_hash": "f82269b06dafc339d0d175e3e3a6602aa7fc2a75f77e3201076eb8f6b2763685",
+  "file_size": 17,
+  "parse_status": "NOT_PARSED",
+  "sections": [],
+  "unclassified_blocks": [],
+  "parse_warnings": [],
+  "generated_at": "2026-07-28T10:37:54.489187+00:00"
+}

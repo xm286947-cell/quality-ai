@@ -1,0 +1,16 @@
+{
+  "stage": "M4",
+  "total_cases": 1,
+  "success_count": 1,
+  "failed_count": 0,
+  "results": [
+    {
+      "case_id": "CASE-900001",
+      "status": "SUCCESS",
+      "evidence_status": "REPORT_PARSED",
+      "quality_flags": [],
+      "output": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/knowledge/standard_case/CASE-900001.json"
+    }
+  ],
+  "failures": []
+}

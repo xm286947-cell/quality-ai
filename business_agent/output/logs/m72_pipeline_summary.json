@@ -1,0 +1,58 @@
+{
+  "pipeline_version": "M7.2-P1",
+  "from_stage": "normalize",
+  "query_id": "QUERY002",
+  "started_at": "2026-07-28T08:48:45.493566+00:00",
+  "completed_at": "2026-07-28T08:48:45.508327+00:00",
+  "elapsed_seconds": 0.015,
+  "query_count": 1,
+  "stages": {
+    "normalize": {
+      "total": 1,
+      "success": 1,
+      "partial_success": 0,
+      "failed": 0,
+      "skipped": 0,
+      "errors": [],
+      "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/normalized_query"
+    },
+    "ai": {
+      "total": 1,
+      "success": 0,
+      "partial_success": 0,
+      "failed": 0,
+      "skipped": 1,
+      "existing_skipped": 0,
+      "schema_invalid": 0,
+      "elapsed_seconds": 0.002,
+      "errors": [],
+      "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/enriched_query"
+    },
+    "build": {
+      "total": 1,
+      "success": 0,
+      "partial_success": 1,
+      "failed": 0,
+      "existing_skipped": 0,
+      "schema_invalid": 0,
+      "elapsed_seconds": 0.005,
+      "errors": [],
+      "output_dir": "/mnt/data/bae_work/repeat_case_m1/knowledge/standard_query"
+    }
+  },
+  "queries": [
+    {
+      "query_id": "QUERY002",
+      "normalized_status": "SUCCESS",
+      "enriched_status": "SKIPPED",
+      "standard_status": "PARTIAL_SUCCESS",
+      "standard_query_generated": true,
+      "quality_flags": [
+        "AI_ENRICHMENT_UNAVAILABLE"
+      ]
+    }
+  ],
+  "success": 0,
+  "partial_success": 1,
+  "failed": 0
+}

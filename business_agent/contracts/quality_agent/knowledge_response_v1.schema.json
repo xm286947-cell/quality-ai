@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "quality-agent://contract/business-agent-knowledge-response/v1",
+  "title": "Knowledge Capability Response V1.0",
+  "type": "object",
+  "required": ["request_id", "service_id", "success", "result", "evidence", "trace", "warnings", "error", "contract_version"],
+  "properties": {
+    "request_id": {"type": "string"},
+    "service_id": {"type": "string"},
+    "success": {"type": "boolean"},
+    "result": {},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "trace": {"type": "array", "items": {"type": "object"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "error": {"type": ["object", "null"]},
+    "contract_version": {"enum": ["V1.0", "1.0"]},
+    "created_at": {"type": "string"}
+  },
+  "additionalProperties": true
+}

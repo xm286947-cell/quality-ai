@@ -1,0 +1,19 @@
+{
+  "case_id": "CASE-000004",
+  "report_filename": "dup.pdf",
+  "matched_report_path": "",
+  "candidate_paths": [
+    "/mnt/data/ba_work/repeat_case_m1/tests/samples/reports/dup.pdf",
+    "/mnt/data/ba_work/repeat_case_m1/tests/samples/reports/nested/dup.pdf"
+  ],
+  "match_type": "AMBIGUOUS",
+  "file_hash": "",
+  "file_size": 0,
+  "parse_status": "AMBIGUOUS",
+  "sections": [],
+  "unclassified_blocks": [],
+  "parse_warnings": [
+    "MULTIPLE_REPORT_MATCHES"
+  ],
+  "generated_at": "2026-07-28T10:07:09.429278+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "total": 1,
+  "success": 0,
+  "partial_success": 1,
+  "failed": 0,
+  "existing_skipped": 0,
+  "schema_invalid": 0,
+  "elapsed_seconds": 0.004,
+  "errors": [],
+  "output_dir": "/mnt/data/repeat_case_m3/repeat_case_m1/knowledge/standard_query"
+}

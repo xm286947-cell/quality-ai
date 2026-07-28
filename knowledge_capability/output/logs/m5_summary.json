@@ -1,0 +1,19 @@
+{
+  "stage": "M5",
+  "mock": true,
+  "total_cases": 1,
+  "success_count": 1,
+  "skipped_count": 0,
+  "failed_count": 0,
+  "results": [
+    {
+      "case_id": "CASE-910001",
+      "status": "SUCCESS",
+      "model": "mock-model",
+      "prompt_version": "1.0",
+      "classification_conflict": true,
+      "output": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/knowledge/enriched_case/CASE-910001.json"
+    }
+  ],
+  "failures": []
+}

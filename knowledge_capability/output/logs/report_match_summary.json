@@ -1,0 +1,13 @@
+{
+  "reports_dir": "/mnt/data/wp05_build/QUALITY_AGENT_ENGINE_V1.1_M1_WP04_EXECUTION_PIPELINE/tests/samples/reports",
+  "total_cases": 5,
+  "match_type_counts": {
+    "EXACT_FILENAME": 2,
+    "NO_REPORT_NAME": 1,
+    "NOT_FOUND": 1,
+    "AMBIGUOUS": 1
+  },
+  "matched_count": 2,
+  "unmatched_count": 2,
+  "ambiguous_count": 1
+}
