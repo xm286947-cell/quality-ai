@@ -406,3 +406,214 @@
 - Added upload type, empty file, size, top_k and timeout validation.
 - Added structured API logging without dumping multipart binary request bodies.
 - Completed OpenAPI response schemas for health, execution and errors.
+
+# CHANGELOG
+
+All notable changes to the Business Agent Engine are documented in this file.
+
+This project follows the QUALITY_AGENT release management standard.
+
+---
+
+# [V1.3] - Release R1
+
+Status：Released
+
+Milestone：M1 Completed
+
+Release Date：2026-07
+
+---
+
+## Overview
+
+Business Agent Engine V1.3 completes the first platform runtime milestone (M1).
+
+This release establishes the unified Agent Runtime for the QUALITY_AGENT platform.
+
+---
+
+## Added
+
+### Runtime Foundation
+
+- Unified Runtime lifecycle
+- Runtime Context
+- Runtime Result
+- Runtime Execution Model
+
+### Workflow Engine
+
+- Workflow Runtime
+- Node Execution
+- Runtime Context Passing
+- End-to-End Workflow Execution
+
+### Capability Runtime
+
+- Capability Registry
+- Capability Binding
+- Capability Gateway
+- Dependency Injection
+- Capability Invocation
+
+### Knowledge Integration
+
+- Knowledge Gateway
+- Knowledge Contract Integration
+- Unified Knowledge Service Access
+
+### LLM Integration
+
+- LLM Gateway
+- Provider Registry
+- Provider Adapter
+- Prompt Builder
+- Request / Response Contract
+- Model Configuration
+
+### Runtime Trace
+
+- Workflow Trace
+- Capability Trace
+- Knowledge Trace
+- LLM Trace
+- Runtime Trace
+
+### Engineering
+
+- QAE Overlay Package
+- Unified Manifest
+- Package Verification
+- Installation Verification
+- Regression Support
+
+---
+
+## Completed Packages
+
+### Package-1
+
+Runtime Foundation
+
+Status：
+
+Completed
+
+---
+
+### Package-2
+
+Capability Integration
+
+Status：
+
+Completed
+
+---
+
+### Package-3
+
+Workflow Capability Integration
+
+Status：
+
+Completed
+
+---
+
+### Package-4
+
+LLM Integration
+
+Status：
+
+Completed
+
+---
+
+### Package-5
+
+End-to-End Agent Runtime
+
+Status：
+
+Completed
+
+---
+
+## Quality Verification
+
+Completed:
+
+- Unit Test PASS
+- Regression PASS
+- QAE Install PASS
+- QAE Verify PASS
+
+---
+
+## Compatibility
+
+Maintains compatibility with:
+
+- QUALITY_AGENT Contract
+- Knowledge Capability
+- Runtime Contract
+- Existing Capability Interface
+
+---
+
+## Limitations
+
+The following capabilities are intentionally excluded from M1:
+
+- Multi Provider Routing
+- Streaming Response
+- Function Calling
+- MCP
+- Memory
+- Cache
+- Planner
+- Cost Optimization
+
+These capabilities will be introduced in future milestones.
+
+---
+
+## Milestone Status
+
+Business Agent
+
+Milestone M1
+
+Status：
+
+Completed
+
+Release：
+
+R1
+
+---
+
+## Platform Impact
+
+Business Agent becomes the unified runtime platform for:
+
+- Repeat Case
+- Quality Risk
+- Quality Check
+- Future Business Agents
+
+All future business capabilities should execute on the unified Agent Runtime.
+
+---
+
+# Version History
+
+| Version | Milestone | Status | Description |
+|----------|-----------|--------|-------------|
+| V1.3 | M1 | Released | Platform Runtime Foundation completed |
+| V1.2 | M1 | Archived | Runtime capability integration |
+| V1.1 | M1 | Archived | Initial platform baseline |
