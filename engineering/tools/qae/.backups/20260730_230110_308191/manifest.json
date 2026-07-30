@@ -1,0 +1,43 @@
+{
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_PACKAGE2_CAPABILITY_INTEGRATION_FIX01",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "package": "Package-2",
+  "capability": "Capability Integration",
+  "delivery_type": "incremental_overlay",
+  "fix": "FIX01_QAE_MANIFEST_ALIGNMENT",
+  "files": [
+    "business_agent/business_agent/capability/__init__.py",
+    "business_agent/business_agent/capability/__pycache__/__init__.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/binding.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/container.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/errors.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/gateway.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/models.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/registry.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/runtime_binding.cpython-313.pyc",
+    "business_agent/business_agent/capability/__pycache__/service_locator.cpython-313.pyc",
+    "business_agent/business_agent/capability/binding.py",
+    "business_agent/business_agent/capability/client.py",
+    "business_agent/business_agent/capability/container.py",
+    "business_agent/business_agent/capability/errors.py",
+    "business_agent/business_agent/capability/gateway.py",
+    "business_agent/business_agent/capability/http_client.py",
+    "business_agent/business_agent/capability/knowledge/__init__.py",
+    "business_agent/business_agent/capability/knowledge/__pycache__/__init__.cpython-313.pyc",
+    "business_agent/business_agent/capability/knowledge/__pycache__/adapter.cpython-313.pyc",
+    "business_agent/business_agent/capability/knowledge/adapter.py",
+    "business_agent/business_agent/capability/models.py",
+    "business_agent/business_agent/capability/registry.py",
+    "business_agent/business_agent/capability/runtime_binding.py",
+    "business_agent/business_agent/capability/service_locator.py",
+    "business_agent/tests/__pycache__/test_capability_v13_package2.cpython-313.pyc",
+    "business_agent/tests/test_capability_v13_package2.py"
+  ],
+  "verification": [
+    "python3 engineering/tools/qae/qae.py verify",
+    "cd business_agent && python3 -m unittest tests.test_capability_v13_package2 -v"
+  ]
+}
