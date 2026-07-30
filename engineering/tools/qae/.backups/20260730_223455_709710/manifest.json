@@ -1,0 +1,22 @@
+{
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P02_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "phase": "P02",
+  "depends_on": [
+    "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_INCREMENT",
+    "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_FIX01_INCREMENT"
+  ],
+  "summary": "Unified Workflow Core and NodeResult contract.",
+  "files": [
+    "business_agent/business_agent/models.py",
+    "business_agent/business_agent/workflow/__init__.py",
+    "business_agent/business_agent/workflow/engine.py",
+    "business_agent/business_agent/workflow/handler_registry.py",
+    "business_agent/business_agent/workflow/node_result.py",
+    "business_agent/business_agent/workflow/policy.py",
+    "business_agent/tests/test_workflow_v13_p02.py"
+  ]
+}

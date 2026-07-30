@@ -1,20 +1,35 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_FIX01_INCREMENT",
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P02_INCREMENT",
   "target_scope": "business_agent",
   "version": "V1.3",
   "milestone": "M1",
-  "installed_at": "2026-07-30T22:28:58",
+  "installed_at": "2026-07-30T22:34:55",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260730_222858_867084",
+  "backup_dir": "engineering/tools/qae/.backups/20260730_223455_709710",
   "overwritten_files": [
-    "business_agent/business_agent/models.py"
+    "business_agent/business_agent/models.py",
+    "business_agent/business_agent/workflow/__init__.py",
+    "business_agent/business_agent/workflow/engine.py",
+    "business_agent/business_agent/workflow/handler_registry.py"
   ],
   "installed_files": [
-    "business_agent/business_agent/models.py"
+    "business_agent/business_agent/models.py",
+    "business_agent/business_agent/workflow/__init__.py",
+    "business_agent/business_agent/workflow/engine.py",
+    "business_agent/business_agent/workflow/handler_registry.py",
+    "business_agent/business_agent/workflow/node_result.py",
+    "business_agent/business_agent/workflow/policy.py",
+    "business_agent/tests/test_workflow_v13_p02.py"
   ],
   "installed_hashes": {
-    "business_agent/business_agent/models.py": "445eab4ebb953c9a2a86e9696542dfb049401926e8ffb2912eb287250d580348"
+    "business_agent/business_agent/models.py": "0547394011ed8d19d4f80eae220dbe4eb898c9116a39345246ea3fbc741d0e0c",
+    "business_agent/business_agent/workflow/__init__.py": "06b55df5c8019f3981a92c4bb9e7e0b126b1b5669f9633839049cdb95f0e543e",
+    "business_agent/business_agent/workflow/engine.py": "3e0368d9123c7560788f4f6b89559cf32f5d09a16576f4c14e6db890e8417ca2",
+    "business_agent/business_agent/workflow/handler_registry.py": "58235b7e8f77b60f097422af9e6182ad4f79d0477c86e3eb55c1456c83176e61",
+    "business_agent/business_agent/workflow/node_result.py": "e7865f6d8f6af3bfa7be6d5b98174346c17d1cf9d3e5c2ddc38154a62aca9e64",
+    "business_agent/business_agent/workflow/policy.py": "e3c242dc27d44dafe9c1145ab32fdd83e40866142ec22aa15896a10fcbefbc38",
+    "business_agent/tests/test_workflow_v13_p02.py": "adce8a7bf69a65830c3b53dc07da5f6154cb0a5f9468f5edd157e6a03995fecc"
   },
-  "verified_at": "2026-07-30T22:28:58"
+  "verified_at": "2026-07-30T22:34:55"
 }

@@ -11,7 +11,6 @@ class WorkflowNode:
     handler: str
     enabled: bool = True
     config: dict[str, Any] = field(default_factory=dict)
-    runtime_policy: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
