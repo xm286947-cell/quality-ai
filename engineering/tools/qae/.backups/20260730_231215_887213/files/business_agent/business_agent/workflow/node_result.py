@@ -8,7 +8,6 @@ from typing import Any
 class NodeStatus(str, Enum):
     SUCCESS = "success"
     PARTIAL_SUCCESS = "partial_success"
-    NO_RESULT = "no_result"
     SKIPPED = "skipped"
     FAILED = "failed"
 

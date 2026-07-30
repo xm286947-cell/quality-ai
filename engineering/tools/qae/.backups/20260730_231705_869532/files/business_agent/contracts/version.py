@@ -6,11 +6,6 @@ from .common import ContractModel
 
 CONTRACT_VERSION = "V1.0"
 MODEL_VERSION = "1.2.0"
-
-# Backward-compatible aliases consumed by schema generation assets.
-DTO_VERSION = MODEL_VERSION
-SCHEMA_VERSION = CONTRACT_VERSION
-
 SUPPORTED_CONTRACT_VERSIONS = frozenset({CONTRACT_VERSION})
 
 

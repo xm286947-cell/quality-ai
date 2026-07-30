@@ -1,0 +1,22 @@
+{
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_PACKAGE3_WORKFLOW_CAPABILITY_INTEGRATION",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "package": "Package-3",
+  "capability": "Workflow Capability Integration",
+  "delivery_type": "incremental_overlay",
+  "base_commit": "5f6d1ef4db58e543f6cc8fdd4749a01640096f4f",
+  "files": [
+    "business_agent/business_agent/workflow/__init__.py",
+    "business_agent/business_agent/workflow/bootstrap.py",
+    "business_agent/business_agent/workflow/capability_handler.py",
+    "business_agent/business_agent/workflow/node_result.py",
+    "business_agent/tests/test_workflow_capability_v13_package3.py"
+  ],
+  "verification": [
+    "python3 engineering/tools/qae/qae.py verify",
+    "cd business_agent && python3 -m unittest discover -s tests -p 'test*.py' -v"
+  ]
+}
