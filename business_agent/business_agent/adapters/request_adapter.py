@@ -5,16 +5,13 @@ from business_agent.models import RuntimeRequest
 
 
 class RequestAdapter:
-    """
-    Convert external execution contract
-    into runtime internal request model.
-    """
+    """Convert a public execution request into the internal runtime request."""
 
     @staticmethod
     def to_runtime(request: ExecutionRequest) -> RuntimeRequest:
         return RuntimeRequest(
             agent_id=request.agent_id,
             request_id=request.request_id,
-            inputs=request.inputs,
-            options=request.options,
+            inputs=dict(request.inputs),
+            options=dict(request.options),
         )

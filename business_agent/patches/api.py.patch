@@ -1,0 +1,33 @@
+--- a/business_agent/business_agent/api.py
++++ b/business_agent/business_agent/api.py
+@@
+-from dataclasses import asdict
+@@
+-from business_agent.api_contract import AgentListResponse, ErrorResponse, ExecutionResponse, HealthResponse
+-from business_agent.models import RuntimeRequest
++from business_agent.adapters import RequestAdapter, ResponseAdapter
++from business_agent.api_contract import AgentListResponse, ErrorResponse, HealthResponse
++from business_agent.contracts.execution import ExecutionRequest, ExecutionResult
+@@
+-    response_model=ExecutionResponse,
++    response_model=ExecutionResult,
+@@
+-        result = BusinessAgentRuntime(ROOT).run(
+-            RuntimeRequest(agent_id=agent_id, request_id=actual_request_id, inputs=inputs, options=options)
+-        )
+-        return JSONResponse(status_code=200, content=asdict(result), headers={"X-Request-ID": actual_request_id, "X-API-Version": API_VERSION})
++        execution_request = ExecutionRequest(
++            request_id=actual_request_id,
++            agent_id=agent_id,
++            inputs=inputs,
++            options=options,
++        )
++        runtime_result = BusinessAgentRuntime(ROOT).run(
++            RequestAdapter.to_runtime(execution_request)
++        )
++        result = ResponseAdapter.from_runtime(runtime_result)
++        return JSONResponse(
++            status_code=200,
++            content=result.model_dump(mode="json"),
++            headers={"X-Request-ID": actual_request_id, "X-API-Version": API_VERSION},
++        )
