@@ -1,3 +1,18 @@
+# BUSINESS_AGENT_ENGINE_V1.2_M1_P02_Increment01
+
+Scope:
+Contract Adapter Layer
+
+Files:
+- adapters/__init__.py
+- adapters/request_adapter.py
+- adapters/response_adapter.py
+- adapters/trace_adapter.py
+
+Purpose:
+Bridge QUALITY_AGENT_CONTRACT V1.0 models and runtime internal models.
+
+
 # BUSINESS_AGENT_ENGINE
 
 QUALITY_AGENT 平台的统一业务智能体运行时。当前工程已接入 `REPEAT_CASE` 插件，并具备通过 `QUALITY_AGENT_CONTRACT V1.0` 调用 Knowledge Capability 的基础能力。
