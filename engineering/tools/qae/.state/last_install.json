@@ -1,0 +1,20 @@
+{
+  "qae_version": "1.0.0",
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_FIX01_INCREMENT",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "installed_at": "2026-07-30T22:28:58",
+  "status": "installed",
+  "backup_dir": "engineering/tools/qae/.backups/20260730_222858_867084",
+  "overwritten_files": [
+    "business_agent/business_agent/models.py"
+  ],
+  "installed_files": [
+    "business_agent/business_agent/models.py"
+  ],
+  "installed_hashes": {
+    "business_agent/business_agent/models.py": "445eab4ebb953c9a2a86e9696542dfb049401926e8ffb2912eb287250d580348"
+  },
+  "verified_at": "2026-07-30T22:28:58"
+}

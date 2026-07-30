@@ -1,0 +1,12 @@
+{
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_FIX01_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "phase": "P01-FIX01",
+  "summary": "Add missing shared runtime model definitions required by the P01 engine skeleton.",
+  "files": [
+    "business_agent/business_agent/models.py"
+  ]
+}

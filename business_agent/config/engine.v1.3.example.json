@@ -1,0 +1,9 @@
+{
+  "log_level": "INFO",
+  "strict_agent_registration": true,
+  "metadata": {
+    "engine_version": "1.3.0",
+    "milestone": "M1",
+    "phase": "P01"
+  }
+}

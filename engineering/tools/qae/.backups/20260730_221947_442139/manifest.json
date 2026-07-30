@@ -1,0 +1,25 @@
+{
+  "package_name": "BUSINESS_AGENT_ENGINE_V1.3_M1_P01_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent",
+  "version": "V1.3",
+  "milestone": "M1",
+  "phase": "P01",
+  "summary": "Business Agent Engine lifecycle, configuration, registry and runtime skeleton.",
+  "files": [
+    "business_agent/business_agent/agent/__init__.py",
+    "business_agent/business_agent/agent/registry.py",
+    "business_agent/business_agent/common/__init__.py",
+    "business_agent/business_agent/common/exceptions.py",
+    "business_agent/business_agent/common/logging.py",
+    "business_agent/business_agent/config/__init__.py",
+    "business_agent/business_agent/config/loader.py",
+    "business_agent/business_agent/engine/__init__.py",
+    "business_agent/business_agent/engine/engine.py",
+    "business_agent/business_agent/runtime/__init__.py",
+    "business_agent/business_agent/runtime/identity.py",
+    "business_agent/business_agent/runtime/state.py",
+    "business_agent/config/engine.v1.3.example.json",
+    "business_agent/tests/test_engine_v13_p01.py"
+  ]
+}
