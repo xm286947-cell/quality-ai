@@ -1,0 +1,15 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M1_P03_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine",
+  "version": "1.0.0",
+  "milestone": "M1_P03",
+  "files": [
+    "engine/llm/__init__.py",
+    "engine/llm/interface.py",
+    "engine/llm/runtime.py",
+    "engine/llm/prompt.py",
+    "engine/llm/providers/__init__.py",
+    "engine/llm/providers/base.py"
+  ]
+}

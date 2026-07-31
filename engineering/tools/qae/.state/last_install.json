@@ -1,24 +1,28 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_M1_P02_INCREMENT",
+  "package_name": "QUALITY_AGENT_ENGINE_M1_P03_INCREMENT",
   "target_scope": "engine",
   "version": "1.0.0",
-  "milestone": "M1_P02",
-  "installed_at": "2026-07-31T23:26:29",
+  "milestone": "M1_P03",
+  "installed_at": "2026-07-31T23:31:24",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_232629_299501",
+  "backup_dir": "engineering/tools/qae/.backups/20260731_233123_997755",
   "overwritten_files": [],
   "installed_files": [
-    "engine/agents/executor.py",
-    "engine/capabilities/registry.py",
-    "engine/adapters/__init__.py",
-    "engine/adapters/knowledge_adapter.py"
+    "engine/llm/__init__.py",
+    "engine/llm/interface.py",
+    "engine/llm/runtime.py",
+    "engine/llm/prompt.py",
+    "engine/llm/providers/__init__.py",
+    "engine/llm/providers/base.py"
   ],
   "installed_hashes": {
-    "engine/agents/executor.py": "dcd0fe02e98f6619f42850acae75cd1ffba034475a777ca0cde2b54281c52ce6",
-    "engine/capabilities/registry.py": "7910376d199ca535e53a466d163f15b71774fd6cb7ddf8d01f0a98bce27c1218",
-    "engine/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/adapters/knowledge_adapter.py": "3f6fb3c5755dc0f18c776a48000d8b9fc00d307fdcc74f03743c591ed4041c61"
+    "engine/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/llm/interface.py": "ee5aebde78bc1873f615d61979a0108b09dbe0a5feb2a509db6a6651d843385e",
+    "engine/llm/runtime.py": "3062f3d19f36ebc6ba5a539b0259fdbb8ab19d513ff5e8eb276d6cb1a7c282f0",
+    "engine/llm/prompt.py": "c6c73f6088fd6deaa4f940a2b7c758609d4d5f9303d52a471c35eedf8614f8d4",
+    "engine/llm/providers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/llm/providers/base.py": "a452243a51a72062fe61fa08845ce02560d1c51e2021d16e555073561583e39e"
   },
-  "verified_at": "2026-07-31T23:26:29"
+  "verified_at": "2026-07-31T23:31:24"
 }
