@@ -1,26 +1,20 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_M2_P05_INCREMENT",
-  "target_scope": "engine/deployment",
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P06_INCREMENT",
+  "target_scope": "engine/bootstrap,engine/server",
   "version": "1.0.0",
-  "milestone": "M2_P05",
-  "installed_at": "2026-07-31T23:55:40",
+  "milestone": "M2_P06",
+  "installed_at": "2026-08-01T00:01:15",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_235540_272969",
+  "backup_dir": "engineering/tools/qae/.backups/20260801_000115_007161",
   "overwritten_files": [],
   "installed_files": [
-    "engine/deployment/__init__.py",
-    "engine/deployment/config.py",
-    "engine/deployment/health.py",
-    "engine/deployment/runtime.py",
-    "engine/deployment/service.py"
+    "engine/bootstrap.py",
+    "engine/server.py"
   ],
   "installed_hashes": {
-    "engine/deployment/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/deployment/config.py": "5a32ddc1ddbf192c764c6e51d26c28bbd9c7a2bb4d03d692038a9d06efd87953",
-    "engine/deployment/health.py": "7fcae84d59b0b9589465f16635ed29209349334cf036888a8405ead20efb11bd",
-    "engine/deployment/runtime.py": "2bf6981ed0732514fb9f5ea53dbd6ddeb8d9ee1bdd9ebac63aec11d4ff68d534",
-    "engine/deployment/service.py": "98ce1c39bdc664274e1abd67e52d1144e6b9c178b90263ed9e81402b70ebfd53"
+    "engine/bootstrap.py": "c63aec20f5ac5fe0f6f9c7df7ef0fbdc565adc63973b6695806a62b727fe11f9",
+    "engine/server.py": "02aba6a4e6f78bc3978a5fa235de6ef0fb288cbbf8d431cd6f51bbeb0663d98a"
   },
-  "verified_at": "2026-07-31T23:55:40"
+  "verified_at": "2026-08-01T00:01:15"
 }
