@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P05_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine/deployment",
+  "version": "1.0.0",
+  "milestone": "M2_P05",
+  "files": [
+    "engine/deployment/__init__.py",
+    "engine/deployment/config.py",
+    "engine/deployment/health.py",
+    "engine/deployment/runtime.py",
+    "engine/deployment/service.py"
+  ]
+}

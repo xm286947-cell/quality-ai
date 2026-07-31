@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P04_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine/security",
+  "version": "1.0.0",
+  "milestone": "M2_P04",
+  "files": [
+    "engine/security/__init__.py",
+    "engine/security/user.py",
+    "engine/security/role.py",
+    "engine/security/permission.py",
+    "engine/security/access_control.py"
+  ]
+}
