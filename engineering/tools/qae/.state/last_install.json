@@ -1,44 +1,24 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_M1_P01_INCREMENT",
+  "package_name": "QUALITY_AGENT_ENGINE_M1_P02_INCREMENT",
   "target_scope": "engine",
   "version": "1.0.0",
-  "milestone": "M1_P01",
-  "installed_at": "2026-07-31T23:14:56",
+  "milestone": "M1_P02",
+  "installed_at": "2026-07-31T23:26:29",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_231456_686990",
+  "backup_dir": "engineering/tools/qae/.backups/20260731_232629_299501",
   "overwritten_files": [],
   "installed_files": [
-    "engine/__init__.py",
-    "engine/runtime/__init__.py",
-    "engine/runtime/state.py",
-    "engine/runtime/lifecycle.py",
-    "engine/runtime/engine.py",
-    "engine/agents/__init__.py",
-    "engine/agents/definition.py",
-    "engine/agents/registry.py",
-    "engine/capabilities/__init__.py",
-    "engine/capabilities/interface.py",
-    "engine/context/__init__.py",
-    "engine/context/context.py",
-    "engine/trace/__init__.py",
-    "engine/trace/trace.py"
+    "engine/agents/executor.py",
+    "engine/capabilities/registry.py",
+    "engine/adapters/__init__.py",
+    "engine/adapters/knowledge_adapter.py"
   ],
   "installed_hashes": {
-    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/runtime/__init__.py": "53953224669c8a9d1ba12d8206ad87a67a8f8919dd4bd3a3ed9613df87e72096",
-    "engine/runtime/state.py": "2206dce97000637bfd0c492235c816a08d6940932cc3e49ad25c1190f243c3a1",
-    "engine/runtime/lifecycle.py": "12642a66192b350630ada7aee6e164f5a01512e46af0b8bcae9e7f94ae35bf90",
-    "engine/runtime/engine.py": "2d001df125f34d7e98b986f47bf0b5a904d0d3caabc6c96390a1c059541d6dc8",
-    "engine/agents/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/agents/definition.py": "e343e7fdfb50ec1eff2e55e26c7a29d94bb3199f56e2ab6358f88e3167eb1fad",
-    "engine/agents/registry.py": "68035c54631e813ed2c191ab9c9762cadd6dde46c43632c47a0e650a7878235c",
-    "engine/capabilities/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/capabilities/interface.py": "310c4e60765b2490ebb579d0b284c4c9dd28578f5d5a90377e964ca83a150ea5",
-    "engine/context/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/context/context.py": "ada96792dafcefce580bfe85d3546a01fb14ddba40ed82573616f088c05d414f",
-    "engine/trace/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/trace/trace.py": "f22cbd9eb8a802b984d2d67e04e432ce80f1c69fce4cd9544e8161406722e06d"
+    "engine/agents/executor.py": "dcd0fe02e98f6619f42850acae75cd1ffba034475a777ca0cde2b54281c52ce6",
+    "engine/capabilities/registry.py": "7910376d199ca535e53a466d163f15b71774fd6cb7ddf8d01f0a98bce27c1218",
+    "engine/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/adapters/knowledge_adapter.py": "3f6fb3c5755dc0f18c776a48000d8b9fc00d307fdcc74f03743c591ed4041c61"
   },
-  "verified_at": "2026-07-31T23:14:56"
+  "verified_at": "2026-07-31T23:26:29"
 }
