@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P03_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine/api",
+  "version": "1.0.0",
+  "milestone": "M2_P03",
+  "files": [
+    "engine/api/__init__.py",
+    "engine/api/models.py",
+    "engine/api/service.py",
+    "engine/api/task_api.py",
+    "engine/api/result_api.py"
+  ]
+}

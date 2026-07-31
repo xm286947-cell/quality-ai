@@ -1,26 +1,26 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_M2_P02_INCREMENT",
-  "target_scope": "engine/task",
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P03_INCREMENT",
+  "target_scope": "engine/api",
   "version": "1.0.0",
-  "milestone": "M2_P02",
-  "installed_at": "2026-07-31T23:44:17",
+  "milestone": "M2_P03",
+  "installed_at": "2026-07-31T23:49:19",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_234417_861957",
+  "backup_dir": "engineering/tools/qae/.backups/20260731_234919_434743",
   "overwritten_files": [],
   "installed_files": [
-    "engine/task/__init__.py",
-    "engine/task/state.py",
-    "engine/task/definition.py",
-    "engine/task/task.py",
-    "engine/task/executor.py"
+    "engine/api/__init__.py",
+    "engine/api/models.py",
+    "engine/api/service.py",
+    "engine/api/task_api.py",
+    "engine/api/result_api.py"
   ],
   "installed_hashes": {
-    "engine/task/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/task/state.py": "26ea8ac06a30b03237fdd4a6762876e06f04f9846b9710fc83bf17711f2db431",
-    "engine/task/definition.py": "51c2f4507e38e6235e81dc07c28d33e5782a0b309cfc7aaad6d1f17421e3d841",
-    "engine/task/task.py": "ae29418f02a7a5f2125093bc0e8668c9206eec3570c97f0ce8d719b0a3aa0977",
-    "engine/task/executor.py": "9d7af15a9d43fbca8f72878bb38ad7dae669eeb1913f042aecec3bcd4a47d752"
+    "engine/api/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/api/models.py": "3f3d18e36afac4826ea13db1f6c3b30ac601e50b565ba3d0628b7960a6c636e4",
+    "engine/api/service.py": "fb75ba3107f982576913952ebc8749c55bf34be08b70b13593f0cb2ae5840f7a",
+    "engine/api/task_api.py": "61f9f5d67a23074a55c4cb02d2778258f3d2118eb56e90f788f0b56c567d255c",
+    "engine/api/result_api.py": "43c0c73a8221ac1aea1b1a19978d0b9277f7b35bd39bccbcc17bb5e27ca248a3"
   },
-  "verified_at": "2026-07-31T23:44:17"
+  "verified_at": "2026-07-31T23:49:19"
 }
