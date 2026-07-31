@@ -1,0 +1,23 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M1_P01_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine",
+  "version": "1.0.0",
+  "milestone": "M1_P01",
+  "files": [
+    "engine/__init__.py",
+    "engine/runtime/__init__.py",
+    "engine/runtime/state.py",
+    "engine/runtime/lifecycle.py",
+    "engine/runtime/engine.py",
+    "engine/agents/__init__.py",
+    "engine/agents/definition.py",
+    "engine/agents/registry.py",
+    "engine/capabilities/__init__.py",
+    "engine/capabilities/interface.py",
+    "engine/context/__init__.py",
+    "engine/context/context.py",
+    "engine/trace/__init__.py",
+    "engine/trace/trace.py"
+  ]
+}
