@@ -1,28 +1,26 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_M1_P03_INCREMENT",
-  "target_scope": "engine",
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P02_INCREMENT",
+  "target_scope": "engine/task",
   "version": "1.0.0",
-  "milestone": "M1_P03",
-  "installed_at": "2026-07-31T23:31:24",
+  "milestone": "M2_P02",
+  "installed_at": "2026-07-31T23:44:17",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_233123_997755",
+  "backup_dir": "engineering/tools/qae/.backups/20260731_234417_861957",
   "overwritten_files": [],
   "installed_files": [
-    "engine/llm/__init__.py",
-    "engine/llm/interface.py",
-    "engine/llm/runtime.py",
-    "engine/llm/prompt.py",
-    "engine/llm/providers/__init__.py",
-    "engine/llm/providers/base.py"
+    "engine/task/__init__.py",
+    "engine/task/state.py",
+    "engine/task/definition.py",
+    "engine/task/task.py",
+    "engine/task/executor.py"
   ],
   "installed_hashes": {
-    "engine/llm/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/llm/interface.py": "ee5aebde78bc1873f615d61979a0108b09dbe0a5feb2a509db6a6651d843385e",
-    "engine/llm/runtime.py": "3062f3d19f36ebc6ba5a539b0259fdbb8ab19d513ff5e8eb276d6cb1a7c282f0",
-    "engine/llm/prompt.py": "c6c73f6088fd6deaa4f940a2b7c758609d4d5f9303d52a471c35eedf8614f8d4",
-    "engine/llm/providers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "engine/llm/providers/base.py": "a452243a51a72062fe61fa08845ce02560d1c51e2021d16e555073561583e39e"
+    "engine/task/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/task/state.py": "26ea8ac06a30b03237fdd4a6762876e06f04f9846b9710fc83bf17711f2db431",
+    "engine/task/definition.py": "51c2f4507e38e6235e81dc07c28d33e5782a0b309cfc7aaad6d1f17421e3d841",
+    "engine/task/task.py": "ae29418f02a7a5f2125093bc0e8668c9206eec3570c97f0ce8d719b0a3aa0977",
+    "engine/task/executor.py": "9d7af15a9d43fbca8f72878bb38ad7dae669eeb1913f042aecec3bcd4a47d752"
   },
-  "verified_at": "2026-07-31T23:31:24"
+  "verified_at": "2026-07-31T23:44:17"
 }

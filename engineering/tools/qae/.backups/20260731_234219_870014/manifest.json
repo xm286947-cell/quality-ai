@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P01_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine/workflow",
+  "version": "1.0.0",
+  "milestone": "M2_P01",
+  "files": [
+    "engine/workflow/__init__.py",
+    "engine/workflow/state.py",
+    "engine/workflow/definition.py",
+    "engine/workflow/workflow.py",
+    "engine/workflow/executor.py"
+  ]
+}

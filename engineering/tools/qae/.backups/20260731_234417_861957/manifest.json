@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_M2_P02_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "engine/task",
+  "version": "1.0.0",
+  "milestone": "M2_P02",
+  "files": [
+    "engine/task/__init__.py",
+    "engine/task/state.py",
+    "engine/task/definition.py",
+    "engine/task/task.py",
+    "engine/task/executor.py"
+  ]
+}
