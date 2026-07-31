@@ -1,5 +1,7 @@
-def execute_mock_agent(input_data):
-    return {
-        "result": "mock response",
-        "input": input_data
-    }
+from adapter.repeat_case import execute as repeat_case_execute
+
+def route(agent_id, request):
+    if agent_id == "repeat_case":
+        return repeat_case_execute(request)
+
+    raise ValueError(f"Unsupported agent: {agent_id}")

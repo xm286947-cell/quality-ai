@@ -1,40 +1,38 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_PORTAL_ENGINE_V1.0_M1_P02_INCREMENT",
+  "package_name": "QUALITY_AGENT_PORTAL_ENGINE_V1.0_M1_P03_INCREMENT",
   "target_scope": "portal",
   "version": "1.0.0",
   "milestone": "M1",
-  "installed_at": "2026-07-31T22:19:32",
+  "installed_at": "2026-07-31T22:22:05",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260731_221932_219148",
+  "backup_dir": "engineering/tools/qae/.backups/20260731_222205_768335",
   "overwritten_files": [
-    "portal/engine/backend/registry/__init__.py",
-    "portal/engine/backend/execution/__init__.py",
-    "portal/engine/backend/core/__init__.py"
-  ],
-  "installed_files": [
-    "portal/engine/backend/registry/models.py",
-    "portal/engine/backend/registry/registry.py",
-    "portal/engine/backend/execution/models.py",
-    "portal/engine/backend/execution/manager.py",
     "portal/engine/backend/core/contract.py",
     "portal/engine/backend/core/router.py",
-    "portal/engine/backend/api/agent.py",
-    "portal/engine/backend/registry/__init__.py",
-    "portal/engine/backend/execution/__init__.py",
-    "portal/engine/backend/core/__init__.py"
+    "portal/engine/backend/registry/registry.py",
+    "portal/engine/backend/registry/models.py",
+    "portal/engine/backend/api/agent.py"
+  ],
+  "installed_files": [
+    "portal/engine/backend/adapter/__init__.py",
+    "portal/engine/backend/adapter/repeat_case.py",
+    "portal/engine/backend/core/contract.py",
+    "portal/engine/backend/core/router.py",
+    "portal/engine/backend/registry/registry.py",
+    "portal/engine/backend/registry/models.py",
+    "portal/engine/backend/report/renderer.py",
+    "portal/engine/backend/api/agent.py"
   ],
   "installed_hashes": {
+    "portal/engine/backend/adapter/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "portal/engine/backend/adapter/repeat_case.py": "d8f480df969fbc216691e5c61411ed03cbabba143a7ec738c32e4b8eccf74617",
+    "portal/engine/backend/core/contract.py": "20589c1f6cce98eca7f3fffc24ed41f931ebaee40c38f256555de8d7647dfcc2",
+    "portal/engine/backend/core/router.py": "64241dcdf761e2f2191fce49d4b9f9468b0858efeba538dc5b1b01ac0fb09c95",
+    "portal/engine/backend/registry/registry.py": "ce8f7dfd4f288757e31e8d98cff0e93c4c184d02d6fdf2214906014b091d5a3d",
     "portal/engine/backend/registry/models.py": "ed714d834d7b1c78096cabcf14fe01bcc2608336b131efbfe59e1450c5f27c32",
-    "portal/engine/backend/registry/registry.py": "28df0beb6af9fa9f8eec963cd0780875dbd0dfadf3c60c665fbca5b722a960e3",
-    "portal/engine/backend/execution/models.py": "61407d58df79ca64a77f3e74cff5008679d6d79aed46243aa2bd95fd3b1775b4",
-    "portal/engine/backend/execution/manager.py": "4dab1433bf4b48bd9c3a0980cc7de9aae1ba31d4b8fdee1cb19ec85e38e275eb",
-    "portal/engine/backend/core/contract.py": "652022ca7823f1394ce24f74517e0e8ac3c1295a3e37dd9fafb6d9aa5f679e95",
-    "portal/engine/backend/core/router.py": "dcb2c977e66c39445d9dbe70c1bd4c96bd5467ed0698df10c3fbacba3e565b5e",
-    "portal/engine/backend/api/agent.py": "aee91769e92c9ec385ecc8712da91691842c707e1a09fa45044a790023a8f018",
-    "portal/engine/backend/registry/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "portal/engine/backend/execution/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "portal/engine/backend/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    "portal/engine/backend/report/renderer.py": "5a14a3869f7e48669a618197fb18a263345bf6faaaec41b4ef0da220edeb1d96",
+    "portal/engine/backend/api/agent.py": "027a32236f872749ea3056e4f37ed4381bbc3f8ade9d53196e439938caa9eb60"
   },
-  "verified_at": "2026-07-31T22:19:32"
+  "verified_at": "2026-07-31T22:22:05"
 }

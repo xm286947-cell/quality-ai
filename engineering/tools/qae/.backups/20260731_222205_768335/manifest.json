@@ -1,0 +1,17 @@
+{
+  "package_name": "QUALITY_AGENT_PORTAL_ENGINE_V1.0_M1_P03_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "portal",
+  "version": "1.0.0",
+  "milestone": "M1",
+  "files": [
+    "portal/engine/backend/adapter/__init__.py",
+    "portal/engine/backend/adapter/repeat_case.py",
+    "portal/engine/backend/core/contract.py",
+    "portal/engine/backend/core/router.py",
+    "portal/engine/backend/registry/registry.py",
+    "portal/engine/backend/registry/models.py",
+    "portal/engine/backend/report/renderer.py",
+    "portal/engine/backend/api/agent.py"
+  ]
+}

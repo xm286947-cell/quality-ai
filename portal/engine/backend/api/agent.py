@@ -1,7 +1,6 @@
 from fastapi import APIRouter
-from registry.registry import list_agents, get_agent
-from execution.manager import create_execution, update_status
-from core.router import execute_mock_agent
+from registry.registry import list_agents
+from core.router import route
 
 router = APIRouter()
 
@@ -9,19 +8,20 @@ router = APIRouter()
 def agents():
     return [a.__dict__ for a in list_agents()]
 
+
 @router.post("/agents/{agent_id}/execute")
 def execute(agent_id: str, payload: dict):
-    request_id = payload.get("request_id", "UNKNOWN")
-    execution = create_execution(
-        request_id,
-        agent_id,
-        payload
-    )
-    update_status(request_id, "RUNNING")
-    result = execute_mock_agent(payload)
-    update_status(request_id, "SUCCESS", result)
+    request = {
+        "request_id": payload.get("request_id", "UNKNOWN"),
+        "agent_id": agent_id,
+        "payload": payload
+    }
+
+    response = route(agent_id, request)
+
     return {
-        "request_id": request_id,
-        "status": "SUCCESS",
-        "result": result
+        "request_id": response.request_id,
+        "agent_id": response.agent_id,
+        "status": response.status,
+        "result": response.result
     }
