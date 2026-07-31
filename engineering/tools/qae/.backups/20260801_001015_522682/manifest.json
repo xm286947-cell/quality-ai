@@ -1,0 +1,13 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_V1.0_M3_P01_REPEAT_CASE_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "business_agent/repeat_case",
+  "version": "1.0.0",
+  "milestone": "M3_P01",
+  "files": [
+    "business_agent/repeat_case/__init__.py",
+    "business_agent/repeat_case/models.py",
+    "business_agent/repeat_case/agent.py",
+    "business_agent/repeat_case/workflow.py"
+  ]
+}
