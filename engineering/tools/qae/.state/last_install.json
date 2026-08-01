@@ -1,24 +1,26 @@
 {
   "qae_version": "1.0.0",
-  "package_name": "QUALITY_AGENT_ENGINE_V1.0_M3_P01_REPEAT_CASE_INCREMENT",
-  "target_scope": "business_agent/repeat_case",
+  "package_name": "QUALITY_AGENT_ENGINE_V1.0_M3_P02_KNOWLEDGE_INCREMENT",
+  "target_scope": "knowledge",
   "version": "1.0.0",
-  "milestone": "M3_P01",
-  "installed_at": "2026-08-01T00:10:15",
+  "milestone": "M3_P02",
+  "installed_at": "2026-08-01T08:41:22",
   "status": "installed",
-  "backup_dir": "engineering/tools/qae/.backups/20260801_001015_522682",
+  "backup_dir": "engineering/tools/qae/.backups/20260801_084122_345636",
   "overwritten_files": [],
   "installed_files": [
-    "business_agent/repeat_case/__init__.py",
-    "business_agent/repeat_case/models.py",
-    "business_agent/repeat_case/agent.py",
-    "business_agent/repeat_case/workflow.py"
+    "knowledge/__init__.py",
+    "knowledge/models.py",
+    "knowledge/repository.py",
+    "knowledge/retriever.py",
+    "knowledge/capability.py"
   ],
   "installed_hashes": {
-    "business_agent/repeat_case/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "business_agent/repeat_case/models.py": "5befed4007113ca4378b37bd7c1c164d0dbe74bf7c7a01de566cfaecdc007805",
-    "business_agent/repeat_case/agent.py": "ca4c3c5528b36e11dcc2b9d06b4b36ccfab1afcaac8199266fe40dec6cedd533",
-    "business_agent/repeat_case/workflow.py": "dbdbf535fa502f397fb75093071cff3f03a91be063d7efe90aa709a4c32d7f17"
+    "knowledge/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "knowledge/models.py": "90c90d799e58a7834ab6ae8c08cf5a13d2c8c5ba2c3cdae345d9a540f6e668b2",
+    "knowledge/repository.py": "8d3786153b2101636d19446f80a80082152a93a7a7328aa6e1ac8055d4d183a3",
+    "knowledge/retriever.py": "01335befe3fcbed469e2da438b6cc2fb1f03c693cf3f27695a7b4ce4e798d06d",
+    "knowledge/capability.py": "3df0173a929141b64d19883e97ed2dffab05bb34549e5acaceb6c92475b69b49"
   },
-  "verified_at": "2026-08-01T00:10:15"
+  "verified_at": "2026-08-01T08:41:22"
 }

@@ -1,0 +1,14 @@
+{
+  "package_name": "QUALITY_AGENT_ENGINE_V1.0_M3_P02_KNOWLEDGE_INCREMENT",
+  "target_project": "quality-ai",
+  "target_scope": "knowledge",
+  "version": "1.0.0",
+  "milestone": "M3_P02",
+  "files": [
+    "knowledge/__init__.py",
+    "knowledge/models.py",
+    "knowledge/repository.py",
+    "knowledge/retriever.py",
+    "knowledge/capability.py"
+  ]
+}
